@@ -143,9 +143,8 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
+    - name: Main
       description: The main servers are located here.
-      closed: true
     - name: Empty Category
     - name: Uncategorized
       untitled: true
@@ -159,19 +158,19 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: GDS
-      category: North Coast
+      category: Main
     - name: TechTool
-      category: North Coast
+      category: Maint
     - name: TrucksPortal
       description: The web frontend for the application.
-      category: Uncategorized
+      category: Main
       link: https://example.com/
     - name: LDS
       description: The guts of the application.
-      category: Uncategorized
+      category: Main
     - name: Whatever
       description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+      category: Main
 
   # What date format to use?
   #
