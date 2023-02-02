@@ -1,14 +1,11 @@
 ---
-title: US East Connection Issues
-date: 2018-04-25 04:13:00
-resolved: true
-resolvedWhen: 2018-04-25 04:13:59
+title: GDS issue
+date: 2023-02-01 04:13:00
+resolved: false
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
-  - API
-  - Media Proxy
-  - Gateway
+  - GDS
 section: issue
 ---
 
